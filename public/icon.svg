@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161d26" />
+      <stop offset="100%" stop-color="#0b0f14" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5d076" />
+      <stop offset="100%" stop-color="#c99335" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <rect x="28" y="28" width="456" height="456" rx="90" fill="none" stroke="url(#gold)" stroke-opacity="0.28" stroke-width="4" />
+  <!-- Open Council Book + Three Advisory Pillars -->
+  <path d="M116 172c0-18 14-32 32-32h94v224h-94c-18 0-32 10-32 24V172z" fill="#1e2936" stroke="url(#gold)" stroke-width="10" stroke-linejoin="round" />
+  <path d="M396 172c0-18-14-32-32-32h-94v224h94c18 0 32 10 32 24V172z" fill="#1e2936" stroke="url(#gold)" stroke-width="10" stroke-linejoin="round" />
+  <path d="M256 140v236" stroke="url(#gold)" stroke-width="10" stroke-linecap="round" />
+  <circle cx="182" cy="212" r="14" fill="url(#gold)" />
+  <circle cx="330" cy="212" r="14" fill="url(#gold)" />
+  <path d="M156 254h52M156 286h44M304 254h52M312 286h44" stroke="#e5c066" stroke-width="8" stroke-linecap="round" opacity="0.85" />
+  <circle cx="256" cy="108" r="16" fill="url(#gold)" />
+</svg>
